@@ -1,3 +1,26 @@
+.animatedd-text {
+ font-family: monospace;
+ overflow: hidden;
+ height:1.1em;
+ word-wrap: break-word;
+ white-space: nowrap;
+ animation: typing 4s steps(48) forwards;
+    font-size: 3rem;
+  font-weight: 200;
+  color: white;
+text-align: center;
+}
+
+@keyframes typing {
+  from { 
+    width: 0;
+  }
+
+  to { 
+    width: 48ch;
+  }
+}
+
 :root {
   --main-white: #f0f0f0;
   --main-blue: #45567d;
