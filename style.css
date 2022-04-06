@@ -12,11 +12,10 @@
 }
 
 @keyframes typing {
-  from { 
+  from {
     width: 0;
   }
-
-  to { 
+  to {
     width: 48ch;
   }
 }
@@ -32,9 +31,7 @@
   padding: 0;
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
@@ -49,8 +46,7 @@ body {
   color: var(--main-white);
 }
 
-h1,
-h2 {
+h1, h2 {
   font-weight: 100;
   text-align: center;
 }
@@ -96,11 +92,9 @@ a {
   .nav {
     justify-content: center;
   }
-  
   .nav-list {
     margin: 0 1rem;
   }
-  
 }
 
 .nav-list a {
@@ -120,13 +114,7 @@ a {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background:
-    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
-    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
-    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
-    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
-    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
-    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%,           #242424  75%, #242424);
+  background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
   background-color: #131313;
   background-size: 20px 20px;
 }
@@ -136,9 +124,7 @@ a {
   padding: 10rem 2rem;
   width: 100vw;
   height: 100vh;
-  background:
-    radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%,                     rgba(255,255,255,.3) 34%, transparent 35%, transparent),
-    radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%,                       rgba(255,255,255,.3)   34%, transparent 35%, transparent) 0 -50px;
+  background: radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent), radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
   background-color: slategray;
   background-size:75px 100px;
 }
@@ -166,12 +152,12 @@ a {
 }
 
 @media (max-width: 30.625em) {
-.projects-section {
-   padding: 6rem 1rem;
+  .projects-section {
+    padding: 6rem 1rem;
   }
-
-.projects-grid {
-   grid-template-columns: 1qfr;
+  
+  .projects-grid {
+    grid-template-columns: 1qfr;
   }
 }
 
@@ -182,7 +168,8 @@ a {
 }
 
 .code {
-  color: var(--main-gray);;
+  color: var(--main-gray);
+  ;
 }
 
 .project-title {
@@ -214,9 +201,7 @@ a {
   width: 100vw;
   height: 100vh;
   padding: 0 2rem;
-  background:
-    linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent     67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
-    linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent     67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+  background: linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px), linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
   background-color:#708090;
   background-size: 64px 128px;
   color: black;
@@ -254,7 +239,7 @@ a {
   font-family: 'Roboto Mono', monospace;
 }
 
-p  {
+p {
   font-size: 30px;
   color: black;
 }
@@ -264,9 +249,9 @@ p  {
 }
 
 .grosserabstand {
-  margin-bottom: 1000px;  
+  margin-bottom: 1000px;
 }
 
 .strich {
-    margin-top: 100px;
+  margin-top: 100px;
 }
