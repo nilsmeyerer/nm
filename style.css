@@ -1,11 +1,11 @@
-.animatedd-text {
+.animated-text2 {
   font-family: 'Roboto Mono', monospace;
   overflow: hidden;
   height:1.1em;
   word-wrap: break-word;
   white-space: nowrap;
   animation: typing 4s steps(48) forwards;
-  font-size: 3rem;
+  font-size: 30px;
   font-weight: 200;
   color: white;
   text-align: center;
@@ -40,13 +40,12 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 10px;
   scroll-behavior: smooth;
 }
 
 body {
   font-family: 'Fredoka One', cursive;
-  line-height: 1.4;
   color: var(--main-white);
 }
 
@@ -57,11 +56,11 @@ h2 {
 }
 
 h1 {
-  font-size: 8rem;
+  font-size: 80px;
 }
 
 h2 {
-  font-size: 4.2rem;
+  font-size: 42px;
 }
 
 ul {
@@ -74,11 +73,6 @@ a {
   font-weight: 100;
   text-align: center;
   color: black;
-}
-
-img {
-  display: block;
-  width: 100%;
 }
 
 .nav {
@@ -124,7 +118,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background:
     linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
@@ -140,6 +134,8 @@ img {
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
+  width: 100vw;
+  height: 100vh;
   background:
     radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%,                     rgba(255,255,255,.3) 34%, transparent 35%, transparent),
     radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%,                       rgba(255,255,255,.3)   34%, transparent 35%, transparent) 0 -50px;
@@ -215,7 +211,7 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   padding: 0 2rem;
   background:
@@ -256,4 +252,21 @@ img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Roboto Mono', monospace;
+}
+
+p  {
+  font-size: 30px;
+  color: black;
+}
+
+.abstand_unten {
+  margin-bottom: 50px;
+}
+
+.grosserabstand {
+  margin-bottom: 1000px;  
+}
+
+.strich {
+    margin-top: 100px;
 }
