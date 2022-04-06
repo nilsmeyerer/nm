@@ -1,5 +1,5 @@
 .animatedd-text {
-font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
  overflow: hidden;
  height:1.1em;
  word-wrap: break-word;
@@ -9,6 +9,7 @@ font-family: 'Roboto Mono', monospace;
   font-weight: 200;
   color: white;
 text-align: center;
+  
 }
 
 @keyframes typing {
@@ -20,7 +21,6 @@ text-align: center;
     width: 48ch;
   }
 }
-
 :root {
   --main-white: #f0f0f0;
   --main-blue: #45567d;
@@ -137,12 +137,6 @@ linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
 linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
 background-color: #131313;
 background-size: 20px 20px;
-}
-.welcome-section > p {
-  font-size: 3rem;
-  font-weight: 200;
-  font-style: italic;
-  color: white;
 }
 
 .projects-section {
@@ -265,4 +259,5 @@ background-size: 64px 128px;
  background-image:linear-gradient(90deg, #CCCCFF, #6495ED);
  -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;
-font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
+ 
