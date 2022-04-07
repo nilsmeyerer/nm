@@ -112,7 +112,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 99.1vw;
   height: 100vh;
   background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
   background-color: #131313;
@@ -122,7 +122,7 @@ a {
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
-  width: 100vw;
+  width: 99.1vw;
   height: 100vh;
   background: radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent), radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
   background-color: slategray;
@@ -198,7 +198,7 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 100vw;
+  width: 99.1vw;
   height: 100vh;
   padding: 0 2rem;
   background: linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px), linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
@@ -254,4 +254,8 @@ p {
 
 .strich {
   margin-top: 100px;
+}
+
+.oben_viel_abstand {
+  margin-top: 200px;
 }
